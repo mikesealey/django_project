@@ -23,5 +23,6 @@ from about import views as about_views
 urlpatterns = [
     path('hello/', index_views.index, name='index'),
     path('about', about_views.about_me, name="about"),
+    path('test1', about_views.test1, name="test1"),
     path('admin/', admin.site.urls),
 ]
